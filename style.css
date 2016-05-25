@@ -1,0 +1,34 @@
+#principal{
+	background: url(fondo.jpeg) fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+#contenido{
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	margin:0px;
+}
+.logo{
+	box-sizing: border-box;
+	padding: 50px 0px;
+	width: 20%;
+}
+#titulo{
+	color: white;
+	font-size: 40pt;
+	padding-bottom: 100px;
+}
+#descripcion{
+	color:white;
+	padding-bottom: 50px;
+}
+#boton{
+	padding-bottom: 100px;
+	margin:0px;
+}
+#segundo{
+	background-color: #7ECAAD;
+	margin:0px;
+}
