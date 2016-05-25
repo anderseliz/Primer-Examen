@@ -20,6 +20,9 @@
 	font-size: 40pt;
 	padding-bottom: 100px;
 }
+#principal #titulo:after{
+	clear: both;
+}
 #principal #descripcion{
 	color:white;
 	padding-bottom: 50px;
@@ -51,6 +54,7 @@
 #quote{
 	margin-top:50px;
 	margin-bottom: 50px;
+	text-align: center;
 }
 .informacion h2{
 	margin-top:0px;
@@ -61,3 +65,35 @@
 .seccion .titulo, .seccion span{
 	font-weight: bold;
 }
+
+@media(max-width: 768px){
+	#principal .logo{
+		width:40%;
+	}
+	#principal #titulo{
+		font-size: 30pt;
+	}
+	#segundo #titulo{
+		font-size: 30pt;
+	}
+	#segundo #descripcion{
+		font-size: 14pt;
+	}
+	#quote{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#quote #descripcion{
+		font-size: 14pt;
+	}
+	.informacion .seccion .titulo{
+		font-size: 14pt;
+	}
+	.informacion .seccion .descripcion{
+		font-size: 12pt;
+	}
+
+}
+
+
+
